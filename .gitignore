@@ -1,0 +1,11 @@
+# Ignora o diretório venv
+venv/
+
+# Ignora tudo dentro do diretório repo
+repositories/*
+reports/*
+
+# Exceção para o arquivo .gitkeep
+!repositories/.gitkeep
+!reports/.gitkeep
+
